@@ -10,7 +10,7 @@ import com.github.monkeywie.proxyee.server.HttpProxyServer;
 public class HttpProxyServerApp {
     public static void main(String[] args) {
         System.out.println("start proxy server");
-        int port = 9999;
+        int port = 60001;
         if (args.length > 0) {
             port = Integer.valueOf(args[0]);
         }
